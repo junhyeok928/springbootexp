@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<!-- 
+	public String exp02(Model d) {
+		d.addAttribute("p", new Person("홍길동", 25, "서울 강남"));
+		return "a04_model";
+	}
+ -->
+<body>
+	<h3 align="center" th:text="${'이름:'+p.name}"></h3>
+	<h3 align="center" th:text="${'나이:'+p.age}"></h3>
+	<h3 align="center" th:text="${'사는곳:'+p.loc}"></h3>
+</body>
+</html>
